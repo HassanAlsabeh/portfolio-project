@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 
-const port = process.env.PORimgT || 5003;
+const port = process.env.PORT || 5003;
 
 require("dotenv").config();
 
